@@ -10,7 +10,7 @@ Then I have trained my model using the iNaturalist dataset, where I have splitte
 ### Hyperparameters and their values:
 1. Kernel size(size of filters): [[3,3,3,3,3], [3,5,5,7,7], [7,7,5,5,3]]
 2. Drop out : [0.2, 0.3]
-3.  Activation function: ['ReLU', 'GELU', 'SiLU', 'Mish']
+3. Activation function: ['ReLU', 'GELU', 'SiLU', 'Mish']
 4. Batch normalization: [True, False]
 5. Filter organization: [[32,32,32,32,32], [128, 128, 64, 64,32], [32, 64,128,256,512]]
 6. Number of neurons in dense layer: [128, 256]
@@ -28,3 +28,8 @@ After choosing the hyperparameters value for which I got the best validation acc
 Note: I have not not included data augmentation as hyperparameter.
 
 ### Refrences:
+
+
+## Part B
+
+In this part we have been asked to use a pre-trained model instead of training the model from the scratch. So, I have loaded a model(resnet50) from torchvision which is pre-trained on the ImageNet dataset which is somewhat similar to iNaturalist data set.
