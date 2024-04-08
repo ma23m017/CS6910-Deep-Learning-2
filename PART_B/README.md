@@ -8,5 +8,5 @@ I have loaded a pre trained model i.e. ResNet50 and then fine tuned it using the
 2. Freezing upto k layers and fine tuning the rest
 3. Freezing the rest
 
-After that I have done the process by freezing 70, 80 and 90 percent of the layers and also printed the validation acccuracies for different run count.
+After that I have done the process by freezing 70, 80 and 90 percent of the layers and also printed the validation acccuracies for different run count. After running what I observed is that I am getting validation accuracies around 70% in 5-6 epochs only, from here we can say that the pre trained model is more effecient than the model we trained from scratch.
 
