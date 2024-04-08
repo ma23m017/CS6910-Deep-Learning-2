@@ -19,10 +19,10 @@ Then I have trained my model using the iNaturalist dataset, where I have splitte
 After choosing the hyperparameters value for which I got the best validation accuracy and I consider it as ny best model. Then I applied my best model on the test data and I also has reported the accuracy on the test data.
 
 ### Best hyperparameters' value:
-1. Kernel size(size of filters):
-2. Drop out :
-3.  Activation function:
-4. Batch normalization:
-5. Filter organization:
-6. Data augmentation:
-7. Number of neurons in dense layer:
+1. Kernel size(size of filters): [[3,5,5,7,7]]
+2. Drop out : [0.3]
+3.  Activation function: ['GELU']
+4. Batch normalization: [False]
+5. Filter organization: [[32, 64,128,256,512]]
+6. Data augmentation: [False]
+7. Number of neurons in dense layer: [128]
